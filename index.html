@@ -11,30 +11,82 @@
     <meta property="og:image" content="https://twemoji.maxcdn.com/v/latest/svg/1f640.svg">
     <link rel="icon" href="https://twemoji.maxcdn.com/v/latest/svg/1f640.svg" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
+
+    <style>
+        .fullwidth-image {
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+            height: 300px;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: .5em 1em;
+        }
+
+        body {
+            display: flex;
+            max-width: unset !important;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            align-content: space-between;
+        }
+
+        .row>* {
+            margin: 0 1em;
+        }
+    </style>
 </head>
 
 <body>
-    <img style="width: 7em; border-radius: 100%;" src="https://github.com/reaganiwadha.png">
-    <h1 style="margin-top:0;">Regan Iwadha</h1>
+    <div class="container">
+        <img style="width: 7em; border-radius: 100%;" src="https://github.com/reaganiwadha.png">
+        <h1 style="margin-top:0;">Regan Iwadha</h1>
 
-    <p>Hi! I'm a student currently studying compsci. I (mostly) do backend development, but I am also interested in
-        other things such as Android development (native using Kotlin). I like to tinker around with stuff when I'm
-        bored.</p>
+        <p>Hi! I'm a student currently studying compsci. I (mostly) do backend development, but I am also interested in
+            other things such as Android development (native using Kotlin). I like to tinker around with stuff when I'm
+            bored.</p>
 
-    <p><s>Ask me opinions about a certain language.</s></p>
-    <h2>Links</h2>
-    <a href="https://github.com/reaganiwadha">😺 GitHub</a><br>
-    <a href="mailto://reaganiwadha@outlook.com">E-Mail</a>
+        <p><s>Ask me opinions about a certain language.</s></p>
 
-    <h2>Sitemap</h2>
-    <a href="https://arah.genericfilter.quest">👉 Arah Shortener</a>
+    </div>
+    <img class="fullwidth-image"
+        src="https://images.unsplash.com/photo-1635728154173-31bb5224a1fa?fit=crop&w=1920&q=80">
 
-    <br><br>
-    <h5 style="text-align: center;">
-        <a href="https://genericfilter.quest">
-            🙀💜 reaganiwadha 2022
-        </a>
-    </h5>
+    <div class="container">
+
+        <div class="row">
+            <div>
+                <h2>Links</h2>
+                <a href="https://github.com/reaganiwadha">😺 GitHub</a><br>
+                <a href="mailto://reaganiwadha@outlook.com">E-Mail</a>
+            </div>
+
+            <div>
+                <h2>Sitemap</h2>
+                <a href="https://arah.genericfilter.quest">👉 Arah Shortener</a>
+            </div>
+        </div>
+
+        <br><br>
+        <h5 style="text-align: center;">
+            <a href="https://genericfilter.quest">
+                🙀💜 reaganiwadha 2022
+            </a>
+            <br>
+            <br>
+            Photo by <a href="https://unsplash.com/@kameeru322813">Scarbor
+                Siu</a> on <a href="https://unsplash.com/@kameeru322813">Unsplash</a>
+        </h5>
+    </div>
 </body>
 
 </html>
