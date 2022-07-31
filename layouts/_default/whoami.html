@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +8,6 @@
     <meta property="og:title" content="Regan Iwadha">
     <meta property="og:description" content="Regan's README.txt">
     <meta property="og:image" content="https://twemoji.maxcdn.com/v/latest/svg/1f640.svg">
-    <link rel="icon" href="https://twemoji.maxcdn.com/v/latest/svg/1f640.svg" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
 
     <style>
         .fullwidth-image {
@@ -45,64 +42,44 @@
         }
     </style>
 </head>
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
 
 <body>
+    <img class="fullwidth-image"
+        src="https://images.unsplash.com/photo-1480944657103-7fed22359e1d?auto=format&fit=crop&w=1932&q=80">
     <div class="container">
-        <div class="row">
-            <img src="graphic_design_2.png">
-        </div>
+        <br>
         <img style="width: 7em; border-radius: 100%;" src="https://github.com/reaganiwadha.png">
+        <br>
         <h1 style="margin-top:0;">Regan Iwadha</h1>
-	
-
+        <br>
         <p>Hi! I'm a student currently studying compsci. I am a software engineer. While I mostly do backend development, I am also interested in
             other things such as Android development (native using Kotlin). I like to tinker around with stuff when I'm
             bored.</p>
-	
-	<p><s>Ask me opinions about a certain language.</s></p>
 
-	<h2>My daily routine</h2>
-	<ol>
-		<li>Wake up</li>
-		<li>Eat breakfast</li>
-		<li>Rant about <a href="https://go.dev/">Go</a></li>
-	</ol>
-
-	<!--
         <p><s>Ask me opinions about a certain language.</s></p>
-	-->
-
+        <br>
+        <h2>My daily routine</h2>
+        <ol>
+                <li>Wake up</li>
+                <li>Eat breakfast</li>
+                <li>Rant about <a href="https://go.dev/">Go</a></li>
+        </ol>
+        
+        <div class="row">
+            <img src="/PassionateEngineering.png">
+        </div>
     </div>
-    <img class="fullwidth-image"
-        src="https://images.unsplash.com/photo-1480944657103-7fed22359e1d?auto=format&fit=crop&w=1932&q=80">
 
     <div class="container">
-
-        <div class="row">
-            <div>
-                <h2>Links</h2>
-                <a href="https://github.com/reaganiwadha">😺 GitHub</a><br>
-                <a href="mailto://reaganiwadha@outlook.com">E-Mail</a>
-            </div>
-
-            <div>
-                <h2>Sitemap</h2>
-                <a href="https://arah.genericfilter.quest">👉 Arah Shortener</a>
-            </div>
-        </div>
-
-        <br><br>
+        <br>
         <h5 style="text-align: center;">
-            <a href="https://genericfilter.quest">
-                🙀💜 reaganiwadha 2022
-            </a>
-            <br>
-            <br>
-            Photo by <a href="https://unsplash.com/@kameeru322813">Scarbor
-                Siu</a> on <a href="https://unsplash.com/@kameeru322813">Unsplash</a>
+            Banner pic by <a href="https://unsplash.com/@mikofilm">Mike Kononov</a> on <a href="https://unsplash.com/photos/IFv0V3_2H6s">Unsplash</a>
         </h5>
+        <br>
+        {{ partial "footer.html" . }}
     </div>
 </body>
 
 </html>
-

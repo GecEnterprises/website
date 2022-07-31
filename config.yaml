@@ -1,0 +1,70 @@
+baseURL: 'https://genericfilter.quest/'
+languageCode: 'en-us'
+title: 'gfq'
+
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+copyright: reaganiwadha
+
+menu:
+  main:
+    - identifier: content
+      name: content
+      url: /
+      weight: 20
+    - identifier: tags
+      name: tags
+      url: /tags
+      weight: 20
+    - identifier: profile
+      name: whoami �
+      url: /whoami
+      weight: 30
+    - identifier: github
+      name: github
+      url: https://github.com/reaganiwadha
+      weight: 32
+    - identifier: mail
+      name: mail
+      url: mailto:reaganiwadha@outlook.com
+      weight: 31
+
+params:
+  author: superuser
+  buttons:
+    - name: Posts
+      url: posts
+    - name: Tags
+      url: tags
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/"
+    - name: stackoverflow
+      url: "https://stackoverflow.com"
+    - name: github
+      url: "https://github.com/"
+
+  editPost:
+    URL: "https://github.com/reaganiwadha/site/issues"
+    Text: "suggest changes" # edit text
+  defaultTheme: light
+
+  showPostNavLinks: true
+  showReadingTime: true
+  disableSpecial1stPost: true
+
+  cover:
+    responsiveImages: true
+    linkFullImages: true
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON 
