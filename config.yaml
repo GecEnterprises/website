@@ -36,6 +36,9 @@ menu:
 
 params:
   author: superuser
+  description: A website
+  assets:
+    favicon: "https://twemoji.maxcdn.com/v/latest/svg/1f640.svg"
   buttons:
     - name: Posts
       url: posts
