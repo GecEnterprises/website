@@ -18,7 +18,7 @@
             padding: .5em 1em;
         }
 
-        body {
+        .flex {
             display: flex;
             max-width: unset !important;
             width: 100%;
@@ -44,6 +44,7 @@
 <body>
     <img class="fullwidth-image"
         src="https://images.unsplash.com/photo-1480944657103-7fed22359e1d?auto=format&fit=crop&w=1932&q=80">
+        <div class="flex">
     <div class="container">
         <br>
         <img style="width: 7em; border-radius: 100%;" src="https://github.com/reaganiwadha.png">
@@ -76,6 +77,7 @@
         <br>
         {{ partial "footer.html" . }}
     </div>
+</div>
 </body>
 
 </html>
