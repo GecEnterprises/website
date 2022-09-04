@@ -25,6 +25,10 @@ menu:
       name: whoami �
       url: /whoami
       weight: 30
+    - identifier: wordposting
+      name: wordposting
+      url: /wordposting
+      weight: 30
     - identifier: github
       name: github
       url: https://github.com/reaganiwadha
