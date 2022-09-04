@@ -8,3 +8,6 @@ cover:
 ---
 
 Neon Genesis Evangelion inspired, composed in GIMP using Google Patents images.
+
+![](/GooglePatentEvaV2.png)
+![](/GooglePatentEvaV3.png)
