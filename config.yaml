@@ -13,18 +13,21 @@ copyright: reaganiwadha
 
 menu:
   main:
+    - identifier: profile
+      name: about
+      url: /whoami
+      weight: 20
     - identifier: content
       name: content
       url: /
-      weight: 20
-    - identifier: tags
-      name: tags
-      url: /tags
-      weight: 20
-    - identifier: profile
-      name: whoami �
-      url: /whoami
-      weight: 30
+    - identifier: works
+      name: works
+      url: /works
+      weight: 90
+    - identifier: privacy
+      name: privacy
+      url: /privacy
+      weight: 100
     - identifier: github
       name: github
       url: https://github.com/reaganiwadha
