@@ -1,4 +1,0 @@
----
-title: "wordposting"
-layout: wordposting
----
