@@ -1,4 +1,0 @@
----
-title: "whoami"
-layout: whoami
----
