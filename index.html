@@ -1,19 +1,91 @@
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Gec Enterprises</title>
         
         <link rel="icon" type="image/png" href="icon_tiny.png">
         <script defer data-domain="gecenterprises.netlify.app" src="https://plausible.io/js/script.outbound-links.tagged-events.js"></script>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            .hero-image {
+                width: 100%;
+                height: 220px;
+                object-fit: cover;
+            }
+
+            .content {
+                text-align: center;
+                padding: 20px;
+                max-width: 800px;
+                margin: 0 auto;
+            }
+
+            h1, h2, h4 {
+                margin: 15px 0;
+            }
+
+            a {
+                color: #0066cc;
+                text-decoration: none;
+                transition: color 0.2s;
+            }
+
+            a:hover {
+                color: #004499;
+                text-decoration: underline;
+            }
+
+            @media (max-width: 768px) {
+                .hero-image {
+                    height: 260px;
+                }
+
+                h1 {
+                    font-size: 34px;
+                }
+
+                h2 {
+                    font-size: 30px;
+                }
+
+                h4 {
+                    font-size: 26px;
+                }
+
+                .content {
+                    padding: 15px;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .hero-image {
+                    height: 260px;
+                }
+
+                h1 {
+                    font-size: 30px;
+                }
+
+                h2 {
+                    font-size: 28px;
+                }
+            }
+        </style>
     </head>
 
-    <body style="margin:0; padding: 0;">
-        <img style="width: 100%; height: 220px;" src="bg1.webp" alt="background image">
+    <body>
+        <img class="hero-image" src="bg1.webp" alt="background image">
 
-        <div style="text-align: center; padding: 10px;">
+        <div class="content">
             <h1>🛳️ Gec Enterprises 🛳️</h1>
             <h1>this site is still under renovation...</h1>
             <h4><a href="https://github.com/GecEnterprises">github</a></h4>
-            <h4>discord: @Gec1Gec2<h4>
+            <h4>discord: @Gec1Gec2</h4>
             <h2>maybe you are here to check out my "sound reel", uh go <a href="sounds.html"><b>HERE</b></a></h2>
         </div>
     </body>
