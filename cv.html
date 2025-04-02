@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regan Iwadha - Game Dev CV</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            color: #333;
+        }
+
+        header {
+            border-bottom: 2px solid #333;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #1a1a1a;
+        }
+
+        .gamedev {
+            font-size: 1.2rem;
+            color: #333;
+            font-weight: normal;
+        }
+
+        .contact-info {
+            margin-top: 0.5rem;
+            color: #666;
+        }
+
+        .contact-info a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .experience-item {
+            margin-bottom: 1.5rem;
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            gap: 1rem;
+            align-items: baseline;
+        }
+
+        .date {
+            color: #666;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        .date-present {
+            color: #76b5b8;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        .project-content {
+            display: flex;
+            flex-direction: column;
+            gap: 0.3rem;
+        }
+
+        .project-title {
+            font-weight: bold;
+            color: #1a1a1a;
+            font-size: 1.1rem;
+            margin: 0;
+        }
+
+        .project-description {
+            margin: 0;
+        }
+
+        .project-link {
+            color: #0066cc;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .project-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+
+            .experience-item {
+                grid-template-columns: 1fr;
+                gap: 0.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Regan Iwadha <span class="gamedev">(gamedev)</span></h1>
+        <div class="contact-info">
+            <p>
+                GitHub: <a href="https://github.com/reaganiwadha">@reaganiwadha</a> | 
+                <a href="https://github.com/GecEnterprises">@GecEnterprises</a><br>
+                Discord: <a href="#">@gec1gec2</a><br>
+                Website: <a href="https://gecenterprises.netlify.app/">gecenterprises.netlify.app</a>
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <div class="experience-item">
+            <span class="date">2023-2024</span>
+            <div class="project-content">
+                <div class="project-title">Minecraft Java Development</div>
+                <p class="project-description">
+                    Developed MMORPG Java Plugin for custom server "Galesta"
+                    <a href="https://minecraft-mp.com/server-s329051" class="project-link">[View Server]</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <span class="date">2024</span>
+            <div class="project-content">
+                <div class="project-title">Discord Bot Development</div>
+                <p class="project-description">Lead developer for undisclosed major Discord bot project</p>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <span class="date-present">Late 2024-present</span>
+            <div class="project-content">
+                <div class="project-title">HogSkull-Labs</div>
+                <p class="project-description">
+                    Technical Writer, Add-On Developer, and Community Manager<br>
+                    • Maintain Monkeys! add-on
+                    <a href="https://www.youtube.com/watch?v=Sf9I-XXGb78" class="project-link">[View Demo]</a><br>
+                    • Working on next HogSkull major release
+                </p>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <span class="date-present">2024-present</span>
+            <div class="project-content">
+                <div class="project-title">"Gec" Music Project</div>
+                <p class="project-description">
+                    DJ, Music Producer, and Sound Designer<br>
+                    • Creating sound design commissions<br>
+                    • Sound design demo reel available at
+                    <a href="https://gecenterprises.netlify.app/sounds" class="project-link">gecenterprises.netlify.app/sounds</a>
+                </p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
